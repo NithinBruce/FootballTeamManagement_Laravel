@@ -42,4 +42,3 @@ Route::post('signup',[App\Http\Controllers\AuthController::class,'registerUser']
 Route::get('login',[App\Http\Controllers\AuthController::class,'showLogin']);
 Route::post('login',[App\Http\Controllers\AuthController::class,'loginUser']);
 
-Route::get('products',[App\Http\Controllers\FootballController::class,'read'])->middleware('user_auth');

@@ -1,6 +1,6 @@
 @extends('layout.app')  
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark p-3">
-  <div class="navbar-brand" href="/">Team Management</div>
+  <a class="navbar-brand" href="/">Team Management</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
